@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		763E074F1DB6904600BAD9DC /* AddFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763E074E1DB6904600BAD9DC /* AddFriend.swift */; };
+		763E078F1DB69ABE00BAD9DC /* friends_model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 763E078D1DB69ABE00BAD9DC /* friends_model.xcdatamodeld */; };
+		763E07911DB69C3600BAD9DC /* Model.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 763E07901DB69C3600BAD9DC /* Model.xcmappingmodel */; };
+		7649AC1C1DB7450500A5530A /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7649AC1B1DB7450400A5530A /* CustomTableViewController.swift */; };
+		7649AC201DB74F1500A5530A /* CustomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7649AC1F1DB74F1500A5530A /* CustomeCell.swift */; };
+		76B8AC211DB3C1B400762468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8AC201DB3C1B400762468 /* AppDelegate.swift */; };
+		76B8AC231DB3C1B400762468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8AC221DB3C1B400762468 /* ViewController.swift */; };
+		76B8AC261DB3C1B400762468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8AC241DB3C1B400762468 /* Main.storyboard */; };
+		76B8AC281DB3C1B400762468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B8AC271DB3C1B400762468 /* Assets.xcassets */; };
+		76B8AC2B1DB3C1B400762468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8AC291DB3C1B400762468 /* LaunchScreen.storyboard */; };
+		76B8AC361DB3C1B400762468 /* NimatCollegeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8AC351DB3C1B400762468 /* NimatCollegeTests.swift */; };
+		76B8AC411DB3C1B400762468 /* NimatCollegeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8AC401DB3C1B400762468 /* NimatCollegeUITests.swift */; };
+		76B8AC4F1DB3CADC00762468 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8AC4E1DB3CADC00762468 /* HomeViewController.swift */; };
+		76B8AC531DB3D55A00762468 /* CurrentFriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8AC521DB3D55A00762468 /* CurrentFriendsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B8AC321DB3C1B400762468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B8AC151DB3C1B400762468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B8AC1C1DB3C1B400762468;
+			remoteInfo = NimatCollege;
+		};
+		76B8AC3D1DB3C1B400762468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B8AC151DB3C1B400762468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B8AC1C1DB3C1B400762468;
+			remoteInfo = NimatCollege;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		763E074E1DB6904600BAD9DC /* AddFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriend.swift; sourceTree = "<group>"; };
+		763E078E1DB69ABE00BAD9DC /* friends_model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = friends_model.xcdatamodel; sourceTree = "<group>"; };
+		763E07901DB69C3600BAD9DC /* Model.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model.xcmappingmodel; sourceTree = "<group>"; };
+		7649AC1B1DB7450400A5530A /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		7649AC1F1DB74F1500A5530A /* CustomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeCell.swift; sourceTree = "<group>"; };
+		76B8AC1D1DB3C1B400762468 /* NimatCollege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimatCollege.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B8AC201DB3C1B400762468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76B8AC221DB3C1B400762468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76B8AC251DB3C1B400762468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76B8AC271DB3C1B400762468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76B8AC2A1DB3C1B400762468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76B8AC2C1DB3C1B400762468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B8AC311DB3C1B400762468 /* NimatCollegeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimatCollegeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B8AC351DB3C1B400762468 /* NimatCollegeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimatCollegeTests.swift; sourceTree = "<group>"; };
+		76B8AC371DB3C1B400762468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B8AC3C1DB3C1B400762468 /* NimatCollegeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimatCollegeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B8AC401DB3C1B400762468 /* NimatCollegeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimatCollegeUITests.swift; sourceTree = "<group>"; };
+		76B8AC421DB3C1B400762468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B8AC4E1DB3CADC00762468 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		76B8AC521DB3D55A00762468 /* CurrentFriendsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFriendsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B8AC1A1DB3C1B400762468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B8AC2E1DB3C1B400762468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B8AC391DB3C1B400762468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B8AC141DB3C1B400762468 = {
+			isa = PBXGroup;
+			children = (
+				76B8AC1F1DB3C1B400762468 /* NimatCollege */,
+				76B8AC341DB3C1B400762468 /* NimatCollegeTests */,
+				76B8AC3F1DB3C1B400762468 /* NimatCollegeUITests */,
+				76B8AC1E1DB3C1B400762468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76B8AC1E1DB3C1B400762468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B8AC1D1DB3C1B400762468 /* NimatCollege.app */,
+				76B8AC311DB3C1B400762468 /* NimatCollegeTests.xctest */,
+				76B8AC3C1DB3C1B400762468 /* NimatCollegeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B8AC1F1DB3C1B400762468 /* NimatCollege */ = {
+			isa = PBXGroup;
+			children = (
+				76B8AC201DB3C1B400762468 /* AppDelegate.swift */,
+				76B8AC221DB3C1B400762468 /* ViewController.swift */,
+				76B8AC241DB3C1B400762468 /* Main.storyboard */,
+				76B8AC521DB3D55A00762468 /* CurrentFriendsController.swift */,
+				76B8AC4E1DB3CADC00762468 /* HomeViewController.swift */,
+				76B8AC271DB3C1B400762468 /* Assets.xcassets */,
+				76B8AC291DB3C1B400762468 /* LaunchScreen.storyboard */,
+				76B8AC2C1DB3C1B400762468 /* Info.plist */,
+				763E074E1DB6904600BAD9DC /* AddFriend.swift */,
+				763E078D1DB69ABE00BAD9DC /* friends_model.xcdatamodeld */,
+				763E07901DB69C3600BAD9DC /* Model.xcmappingmodel */,
+				7649AC1B1DB7450400A5530A /* CustomTableViewController.swift */,
+				7649AC1F1DB74F1500A5530A /* CustomeCell.swift */,
+			);
+			path = NimatCollege;
+			sourceTree = "<group>";
+		};
+		76B8AC341DB3C1B400762468 /* NimatCollegeTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B8AC351DB3C1B400762468 /* NimatCollegeTests.swift */,
+				76B8AC371DB3C1B400762468 /* Info.plist */,
+			);
+			path = NimatCollegeTests;
+			sourceTree = "<group>";
+		};
+		76B8AC3F1DB3C1B400762468 /* NimatCollegeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76B8AC401DB3C1B400762468 /* NimatCollegeUITests.swift */,
+				76B8AC421DB3C1B400762468 /* Info.plist */,
+			);
+			path = NimatCollegeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B8AC1C1DB3C1B400762468 /* NimatCollege */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B8AC451DB3C1B400762468 /* Build configuration list for PBXNativeTarget "NimatCollege" */;
+			buildPhases = (
+				76B8AC191DB3C1B400762468 /* Sources */,
+				76B8AC1A1DB3C1B400762468 /* Frameworks */,
+				76B8AC1B1DB3C1B400762468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NimatCollege;
+			productName = NimatCollege;
+			productReference = 76B8AC1D1DB3C1B400762468 /* NimatCollege.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B8AC301DB3C1B400762468 /* NimatCollegeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B8AC481DB3C1B400762468 /* Build configuration list for PBXNativeTarget "NimatCollegeTests" */;
+			buildPhases = (
+				76B8AC2D1DB3C1B400762468 /* Sources */,
+				76B8AC2E1DB3C1B400762468 /* Frameworks */,
+				76B8AC2F1DB3C1B400762468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B8AC331DB3C1B400762468 /* PBXTargetDependency */,
+			);
+			name = NimatCollegeTests;
+			productName = NimatCollegeTests;
+			productReference = 76B8AC311DB3C1B400762468 /* NimatCollegeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76B8AC3B1DB3C1B400762468 /* NimatCollegeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B8AC4B1DB3C1B400762468 /* Build configuration list for PBXNativeTarget "NimatCollegeUITests" */;
+			buildPhases = (
+				76B8AC381DB3C1B400762468 /* Sources */,
+				76B8AC391DB3C1B400762468 /* Frameworks */,
+				76B8AC3A1DB3C1B400762468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B8AC3E1DB3C1B400762468 /* PBXTargetDependency */,
+			);
+			name = NimatCollegeUITests;
+			productName = NimatCollegeUITests;
+			productReference = 76B8AC3C1DB3C1B400762468 /* NimatCollegeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B8AC151DB3C1B400762468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sufiyan;
+				TargetAttributes = {
+					76B8AC1C1DB3C1B400762468 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					76B8AC301DB3C1B400762468 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 76B8AC1C1DB3C1B400762468;
+					};
+					76B8AC3B1DB3C1B400762468 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 76B8AC1C1DB3C1B400762468;
+					};
+				};
+			};
+			buildConfigurationList = 76B8AC181DB3C1B400762468 /* Build configuration list for PBXProject "NimatCollege" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76B8AC141DB3C1B400762468;
+			productRefGroup = 76B8AC1E1DB3C1B400762468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B8AC1C1DB3C1B400762468 /* NimatCollege */,
+				76B8AC301DB3C1B400762468 /* NimatCollegeTests */,
+				76B8AC3B1DB3C1B400762468 /* NimatCollegeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B8AC1B1DB3C1B400762468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B8AC2B1DB3C1B400762468 /* LaunchScreen.storyboard in Resources */,
+				76B8AC281DB3C1B400762468 /* Assets.xcassets in Resources */,
+				76B8AC261DB3C1B400762468 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B8AC2F1DB3C1B400762468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B8AC3A1DB3C1B400762468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B8AC191DB3C1B400762468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763E074F1DB6904600BAD9DC /* AddFriend.swift in Sources */,
+				763E078F1DB69ABE00BAD9DC /* friends_model.xcdatamodeld in Sources */,
+				76B8AC231DB3C1B400762468 /* ViewController.swift in Sources */,
+				76B8AC211DB3C1B400762468 /* AppDelegate.swift in Sources */,
+				7649AC1C1DB7450500A5530A /* CustomTableViewController.swift in Sources */,
+				76B8AC4F1DB3CADC00762468 /* HomeViewController.swift in Sources */,
+				7649AC201DB74F1500A5530A /* CustomeCell.swift in Sources */,
+				76B8AC531DB3D55A00762468 /* CurrentFriendsController.swift in Sources */,
+				763E07911DB69C3600BAD9DC /* Model.xcmappingmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B8AC2D1DB3C1B400762468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B8AC361DB3C1B400762468 /* NimatCollegeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B8AC381DB3C1B400762468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B8AC411DB3C1B400762468 /* NimatCollegeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B8AC331DB3C1B400762468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B8AC1C1DB3C1B400762468 /* NimatCollege */;
+			targetProxy = 76B8AC321DB3C1B400762468 /* PBXContainerItemProxy */;
+		};
+		76B8AC3E1DB3C1B400762468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B8AC1C1DB3C1B400762468 /* NimatCollege */;
+			targetProxy = 76B8AC3D1DB3C1B400762468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76B8AC241DB3C1B400762468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B8AC251DB3C1B400762468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76B8AC291DB3C1B400762468 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B8AC2A1DB3C1B400762468 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76B8AC431DB3C1B400762468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76B8AC441DB3C1B400762468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B8AC461DB3C1B400762468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NimatCollege/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NimatCollege;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76B8AC471DB3C1B400762468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NimatCollege/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NimatCollege;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76B8AC491DB3C1B400762468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimatCollegeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NimatCollegeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimatCollege.app/NimatCollege";
+			};
+			name = Debug;
+		};
+		76B8AC4A1DB3C1B400762468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NimatCollegeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NimatCollegeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimatCollege.app/NimatCollege";
+			};
+			name = Release;
+		};
+		76B8AC4C1DB3C1B400762468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NimatCollegeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NimatCollegeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NimatCollege;
+			};
+			name = Debug;
+		};
+		76B8AC4D1DB3C1B400762468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NimatCollegeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NimatCollegeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NimatCollege;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B8AC181DB3C1B400762468 /* Build configuration list for PBXProject "NimatCollege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B8AC431DB3C1B400762468 /* Debug */,
+				76B8AC441DB3C1B400762468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B8AC451DB3C1B400762468 /* Build configuration list for PBXNativeTarget "NimatCollege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B8AC461DB3C1B400762468 /* Debug */,
+				76B8AC471DB3C1B400762468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B8AC481DB3C1B400762468 /* Build configuration list for PBXNativeTarget "NimatCollegeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B8AC491DB3C1B400762468 /* Debug */,
+				76B8AC4A1DB3C1B400762468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B8AC4B1DB3C1B400762468 /* Build configuration list for PBXNativeTarget "NimatCollegeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B8AC4C1DB3C1B400762468 /* Debug */,
+				76B8AC4D1DB3C1B400762468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		763E078D1DB69ABE00BAD9DC /* friends_model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				763E078E1DB69ABE00BAD9DC /* friends_model.xcdatamodel */,
+			);
+			currentVersion = 763E078E1DB69ABE00BAD9DC /* friends_model.xcdatamodel */;
+			path = friends_model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 76B8AC151DB3C1B400762468 /* Project object */;
+}
