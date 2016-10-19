@@ -20,6 +20,7 @@ class CurrentFriendsController: UIViewController, UITableViewDataSource, UITable
     var name: [String] = []
     var phone: [String] = []
     var gender: [String] = []
+    var address: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,11 +72,12 @@ class CurrentFriendsController: UIViewController, UITableViewDataSource, UITable
             let result = try managedContext.executeFetchRequest(fetchRequest)
             
             for managedObject in result {
-                if let names = managedObject.valueForKey("name"), phones = managedObject.valueForKey("phone"), genders = managedObject.valueForKey("gender") {
+                if let names = managedObject.valueForKey("name"), phones = managedObject.valueForKey("phone"), genders = managedObject.valueForKey("gender"),addresss = managedObject.valueForKey("address") {
                     print("\(names) \(phones)")
                     name.append((names) as! String)
                     phone.append((phones) as! String)
                     gender.append((genders) as! String)
+                    address.append((addresss) as! String)
                     
                 }
             }

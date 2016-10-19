@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5E9FFB1DB7B20A00C5714A /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A5E9FFA1DB7B20A00C5714A /* Background.jpg */; };
+		2A5E9FFD1DB7C0BA00C5714A /* collage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A5E9FFC1DB7C0BA00C5714A /* collage.jpg */; };
 		763E074F1DB6904600BAD9DC /* AddFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763E074E1DB6904600BAD9DC /* AddFriend.swift */; };
 		763E078F1DB69ABE00BAD9DC /* friends_model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 763E078D1DB69ABE00BAD9DC /* friends_model.xcdatamodeld */; };
-		763E07911DB69C3600BAD9DC /* Model.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 763E07901DB69C3600BAD9DC /* Model.xcmappingmodel */; };
 		7649AC1C1DB7450500A5530A /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7649AC1B1DB7450400A5530A /* CustomTableViewController.swift */; };
 		7649AC201DB74F1500A5530A /* CustomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7649AC1F1DB74F1500A5530A /* CustomeCell.swift */; };
+		7695EE811DB7E15A004E77FC /* Model.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7695EE801DB7E15A004E77FC /* Model.xcmappingmodel */; };
+		7695EE831DB7E867004E77FC /* UpdateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695EE821DB7E867004E77FC /* UpdateController.swift */; };
+		7695EE851DB7F9F2004E77FC /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695EE841DB7F9F2004E77FC /* Friend.swift */; };
 		76B8AC211DB3C1B400762468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8AC201DB3C1B400762468 /* AppDelegate.swift */; };
 		76B8AC231DB3C1B400762468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8AC221DB3C1B400762468 /* ViewController.swift */; };
 		76B8AC261DB3C1B400762468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8AC241DB3C1B400762468 /* Main.storyboard */; };
@@ -41,11 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A5E9FFA1DB7B20A00C5714A /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		2A5E9FFC1DB7C0BA00C5714A /* collage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collage.jpg; sourceTree = "<group>"; };
 		763E074E1DB6904600BAD9DC /* AddFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriend.swift; sourceTree = "<group>"; };
 		763E078E1DB69ABE00BAD9DC /* friends_model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = friends_model.xcdatamodel; sourceTree = "<group>"; };
-		763E07901DB69C3600BAD9DC /* Model.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model.xcmappingmodel; sourceTree = "<group>"; };
 		7649AC1B1DB7450400A5530A /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		7649AC1F1DB74F1500A5530A /* CustomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeCell.swift; sourceTree = "<group>"; };
+		7695EE801DB7E15A004E77FC /* Model.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Model.xcmappingmodel; sourceTree = "<group>"; };
+		7695EE821DB7E867004E77FC /* UpdateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateController.swift; sourceTree = "<group>"; };
+		7695EE841DB7F9F2004E77FC /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		76B8AC1D1DB3C1B400762468 /* NimatCollege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimatCollege.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B8AC201DB3C1B400762468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76B8AC221DB3C1B400762468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +99,7 @@
 		76B8AC141DB3C1B400762468 = {
 			isa = PBXGroup;
 			children = (
+				2A5E9FFA1DB7B20A00C5714A /* Background.jpg */,
 				76B8AC1F1DB3C1B400762468 /* NimatCollege */,
 				76B8AC341DB3C1B400762468 /* NimatCollegeTests */,
 				76B8AC3F1DB3C1B400762468 /* NimatCollegeUITests */,
@@ -111,6 +120,7 @@
 		76B8AC1F1DB3C1B400762468 /* NimatCollege */ = {
 			isa = PBXGroup;
 			children = (
+				2A5E9FFC1DB7C0BA00C5714A /* collage.jpg */,
 				76B8AC201DB3C1B400762468 /* AppDelegate.swift */,
 				76B8AC221DB3C1B400762468 /* ViewController.swift */,
 				76B8AC241DB3C1B400762468 /* Main.storyboard */,
@@ -120,10 +130,12 @@
 				76B8AC291DB3C1B400762468 /* LaunchScreen.storyboard */,
 				76B8AC2C1DB3C1B400762468 /* Info.plist */,
 				763E074E1DB6904600BAD9DC /* AddFriend.swift */,
+				7695EE801DB7E15A004E77FC /* Model.xcmappingmodel */,
 				763E078D1DB69ABE00BAD9DC /* friends_model.xcdatamodeld */,
-				763E07901DB69C3600BAD9DC /* Model.xcmappingmodel */,
 				7649AC1B1DB7450400A5530A /* CustomTableViewController.swift */,
 				7649AC1F1DB74F1500A5530A /* CustomeCell.swift */,
+				7695EE821DB7E867004E77FC /* UpdateController.swift */,
+				7695EE841DB7F9F2004E77FC /* Friend.swift */,
 			);
 			path = NimatCollege;
 			sourceTree = "<group>";
@@ -250,7 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5E9FFD1DB7C0BA00C5714A /* collage.jpg in Resources */,
 				76B8AC2B1DB3C1B400762468 /* LaunchScreen.storyboard in Resources */,
+				2A5E9FFB1DB7B20A00C5714A /* Background.jpg in Resources */,
 				76B8AC281DB3C1B400762468 /* Assets.xcassets in Resources */,
 				76B8AC261DB3C1B400762468 /* Main.storyboard in Resources */,
 			);
@@ -283,9 +297,11 @@
 				76B8AC211DB3C1B400762468 /* AppDelegate.swift in Sources */,
 				7649AC1C1DB7450500A5530A /* CustomTableViewController.swift in Sources */,
 				76B8AC4F1DB3CADC00762468 /* HomeViewController.swift in Sources */,
+				7695EE831DB7E867004E77FC /* UpdateController.swift in Sources */,
 				7649AC201DB74F1500A5530A /* CustomeCell.swift in Sources */,
 				76B8AC531DB3D55A00762468 /* CurrentFriendsController.swift in Sources */,
-				763E07911DB69C3600BAD9DC /* Model.xcmappingmodel in Sources */,
+				7695EE811DB7E15A004E77FC /* Model.xcmappingmodel in Sources */,
+				7695EE851DB7F9F2004E77FC /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

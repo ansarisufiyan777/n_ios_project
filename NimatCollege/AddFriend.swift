@@ -16,12 +16,14 @@ class AddFriend: UIViewController {
     @IBOutlet weak var txtGender: UITextField!
     @IBOutlet weak var txtMobileNumber: UITextField!
     @IBOutlet weak var txtFullName: UITextField!
+    
+    @IBOutlet weak var txtAddress: UITextField!
     @IBAction func AddFriend(sender: AnyObject) {
         if (txtGender.text!=="" || txtMobileNumber.text! == "" || txtFullName.text! == "") {
             showDialog()
 
         }else{
-            saveName(txtFullName.text!, number: txtMobileNumber.text!,gender: txtGender.text!)
+            saveName(txtFullName.text!, number: txtMobileNumber.text!,gender: txtGender.text!,address: txtAddress.text!)
             //fetchData()
             fetchtoArray()
         }
@@ -35,7 +37,7 @@ class AddFriend: UIViewController {
         }))
         presentViewController(refreshAlert, animated: true, completion: nil)
     }
-    func saveName(name: String, number: String, gender: String) {
+    func saveName(name: String, number: String, gender: String, address: String) {
         let appDelegate =
             UIApplication.sharedApplication().delegate as! AppDelegate
         let managedContext = appDelegate.managedObjectContext
@@ -46,6 +48,8 @@ class AddFriend: UIViewController {
         v_person.setValue(name, forKey: "name")
         v_person.setValue(number, forKey: "phone")
         v_person.setValue(gender, forKey: "gender")
+        
+        v_person.setValue(address, forKey: "address")
         do {
             try managedContext.save()
             friends.append(v_person)

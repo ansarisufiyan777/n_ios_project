@@ -13,7 +13,14 @@ class CustomTableViewController: UIViewController, UITableViewDataSource,UITable
     var tname: [String] = []
     var tphone: [String] = []
     var tgender: [String] = []
+    var taddress: [String] = []
     
+    var v_tname:String!
+    var v_tphone:String!
+    var v_tgender:String!
+    var v_taddress:String!
+
+
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +40,34 @@ class CustomTableViewController: UIViewController, UITableViewDataSource,UITable
         cell.name.text = tname[indexPath.row]
         cell.gender.text=tgender[indexPath.row]
         cell.phone.text=tphone[indexPath.row]
+        cell.address.text=taddress[indexPath.row]
         return cell
     }
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        let row = indexPath.row
+        v_tname = tname[row];
+        v_tphone = tphone[row];
+        v_taddress = taddress[row];
+        v_tgender = tgender[row];
+        
+        self.performSegueWithIdentifier("segueUpdate", sender: nil)
+
+        print(tname[row])
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if (segue.identifier == "segueUpdate") {
+            let viewController = segue.destinationViewController as! UpdateController
+            viewController.v_tname = v_tname
+            viewController.v_tphone = v_tphone
+            viewController.v_tgender = v_tgender
+            viewController.v_taddress = v_taddress
+            
+        }
+        
+    }
+
     /*
     // MARK: - Navigation
 
@@ -62,12 +95,12 @@ class CustomTableViewController: UIViewController, UITableViewDataSource,UITable
             let result = try managedContext.executeFetchRequest(fetchRequest)
             
             for managedObject in result {
-                if let names = managedObject.valueForKey("name"), phones = managedObject.valueForKey("phone"), genders = managedObject.valueForKey("gender") {
-                    print("\(names) \(phones)")
+                if let names = managedObject.valueForKey("name"), phones = managedObject.valueForKey("phone"), genders = managedObject.valueForKey("gender"), address = managedObject.valueForKey("address") {
                     tname.append((names) as! String)
                     tphone.append((phones) as! String)
                     tgender.append((genders) as! String)
-                    
+                    taddress.append((address) as! String)
+                    print((names))
                 }
             }
             
@@ -83,4 +116,5 @@ class CustomTableViewController: UIViewController, UITableViewDataSource,UITable
         }
         
     }
+    
 }
